@@ -1,0 +1,25 @@
+.list {
+    background-color: aquamarine;
+}
+.newlist {
+    background-color: blue;
+    font-size: 1.5rem;
+}
+.list_red {
+    background-color: red;
+}
+.one {
+    background-color: bisque;
+}
+.two {
+    font-weight: 900; 
+    color: #00f; 
+}
+.three {
+    border: 2px solid #f00;
+    background-color: aqua;
+}
+.btn {
+    width: 200px;
+    padding: 20px;
+}

@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+}
+.flexbox-header {
+    background-color: rgb(164, 164, 224);
+    border: 2px solid red;
+    padding: 10px 0px;
+    display: flex;
+}
+.flexbox-header > div {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.flexbox-header > div:nth-child(3) {
+    margin-left: auto;
+
+}
+.grid-page {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 50px 250px 50px;
+}
+.header {
+    background-color: aquamarine;
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header > div {
+    margin-left: 25px;
+    margin-right: 20px;
+}
+.header > div:nth-child(3) {
+    margin-left: auto;
+}
+.menu {
+    background-color: brown;
+    grid-column: 1/2;
+}
+.content {
+    background-color: coral;
+    grid-column: 2/-1;
+}
+.footer {
+    background-color:darkgreen;
+    grid-column: 1/-1;
+}

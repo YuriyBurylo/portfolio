@@ -1,0 +1,30 @@
+.block {
+    max-width: 800px;
+    height: 1800px;
+    margin: 0 auto;
+    border: 3px solid red;
+    text-align: center;
+    position: relative;
+}
+
+.block_1 {
+    height: 50px;
+    background-color: blueviolet;
+}
+
+.block_2 {
+    height: 50px;
+    background-color: chocolate;
+    position: sticky;
+    top: 0;
+    left: -330px;
+}
+
+.block_3 {
+    height: 50px;
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+    left: 100px;
+    width: 100%;
+}

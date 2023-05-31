@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.block {
+    width: 500px;
+    height: 500px;
+    border: 2px solid #f00;
+    position: relative;
+    top: 20vh;
+    left: 30vw;
+}
+.btn {
+    width: 300px;
+    max-height: 100px;
+    background-color: blue;
+    color: #fff;
+    font-size: 24px;
+    line-height: 50px;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 10px rgba(99, 249, 25, 0.8);
+    border-radius: 8px;
+    position: relative;
+    top: 200px;
+    left: 100px;
+    transition-property: background-color, color, box-shadow, top;
+    transition-duration: 0.5s, 0.8s, 1.2s, 300ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 100ms, 200ms, 300ms, 0.2s;
+
+}
+.btn:hover {
+    background-color:#000;
+    color: yellow;
+    box-shadow: 0px 0px 12px yellow;
+}
+.btn:active {
+    background-color: #f00;
+    color: #fff;
+    box-shadow: 0px -8px 12px rgb(98, 97, 97);
+    top: 208px;
+    border: 1px solid yellow;
+    font-weight: 700;
+    transition: top 1s ease 100ms, border 0.3s ease 0.2s, font-weight 1s ease 0.2s;
+}

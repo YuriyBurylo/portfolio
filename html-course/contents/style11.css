@@ -1,0 +1,37 @@
+body {
+    background: greenyellow;
+}
+.out {
+    width: 300px;
+    height: 150px;
+    border: 3px solid yellow;
+}
+.out-1 {
+    width: 300px;
+    height: 100px;
+    border: 2px solid orangered;
+}
+.out-2 {
+    width: 300px;
+    height: 100px;
+    border: 2px solid green;
+}
+.out-3 {
+    width: 300px;
+    height: 100px;
+    border: 2px solid blue;
+}
+details {
+    margin: 1rem;
+    background-color: #ccc;
+    padding: 1rem;
+}
+dialog {
+    border: 2px solid rgb(3, 128, 6);
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(191, 231, 191), rgb(226, 211, 211));
+    text-align: center;
+}
+dialog::backdrop {
+    background-color: rgba(107, 207, 13, 0.5);
+}
